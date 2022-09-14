@@ -35,6 +35,13 @@ namespace OperatorsExercise
         { return num1 / num2; }
 
         // 8 / 4 = 2 
+        
+        public static double AreaOfCircle(double radius)
+        {
+            return Math.PI * (radius * radius);
+
+        }
+
 
     }
 }
